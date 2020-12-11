@@ -105,3 +105,26 @@ a {
 .Writing1 [
 font-size:30px;
 ]
+#Apps {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+    }
+#Game {
+    width: 100%;
+    height: 800px;
+    background-color: red;
+    }
+#Game img {
+    transition: transform.2s;
+    height: 420px;
+    width:400px;
+    }
+#Game img:hover {
+    transform: scale(0.9);
+}
+#Chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: coral;
+}
